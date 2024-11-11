@@ -90,8 +90,11 @@ public class Variables {
         System.out.println(remainder);
 
         int number = 8;
-        boolean isEven = (number % 2 == 0); // == comparisan operator
+        boolean isEven = (number % 2 == 0); // == comparison operator
         System.out.println(isEven);
+        int number1 = 16;
+        boolean isNotEven = (number1 % 3 == 0);
+        System.out.println(isNotEven);
 
         // Increment ++
         // ++preIncrement
@@ -109,7 +112,6 @@ public class Variables {
         int preIncrement = ++counter;
         System.out.println(postIncrement);
         System.out.println(preIncrement);
-
 
 
 
