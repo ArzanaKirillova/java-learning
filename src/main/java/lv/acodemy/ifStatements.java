@@ -6,7 +6,7 @@ public class ifStatements {
         int number = 7;
         if (number % 2 == 0) {
             System.out.println("The number is even.");
-
+        }
             // Check if a number is positive or negative
 
             number = -5;
@@ -26,7 +26,7 @@ public class ifStatements {
                 // else-if(score >= 75) -> B
                 // else-if(score >= 50) -> C
                 // else -> F
-
+            }
                 int score = 68;
                 if (score >= 90) {
                     System.out.println("Grade: A");
@@ -82,5 +82,3 @@ public class ifStatements {
 
             }
         }
-    }
-}
